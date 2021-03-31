@@ -1,0 +1,25 @@
+.advantages {
+  padding-top: var(--section-pt);
+  padding-bottom: var(--section-pb);
+}
+
+.title-list {
+  display: flex;
+}
+
+.title-item-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.title-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  background-color: var(--team-buttons-color);
+  border: none;
+  border-radius: 4px;
+}
