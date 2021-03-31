@@ -1,10 +1,10 @@
-.team-list {
+.team__list {
   display: flex;
   margin-top: 50px;
   margin-left: -30px;
 }
 
-.team-item {
+.member {
   margin-left: 30px;
   flex-basis: calc(100% / 4 - 30px);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -12,7 +12,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-item-inform {
+.member__inform {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -22,7 +22,7 @@
   background-color: var(--first-text-color);
 }
 
-.team-member {
+.member__name {
   margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
@@ -31,7 +31,7 @@
   color: var(--main-text-color);
 }
 
-.team-item-position {
+.member__position {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -39,7 +39,7 @@
   margin-bottom: 16px;
 }
 
-.our-team {
+.team {
   padding-bottom: var(--section-pb);
   padding-top: var(--section-pt);
   background: var(--team-buttons-color);

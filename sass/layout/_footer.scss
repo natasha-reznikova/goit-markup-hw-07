@@ -10,10 +10,9 @@
   width: 228px;
 
   &:not(:first-child) {
-  margin-top: 9px;
+    margin-top: 9px;
+  }
 }
-}
-
 
 .address-item {
   font-size: 14px;
@@ -26,27 +25,15 @@
   color: var(--first-text-color);
 }
 
-.footer-logo {
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-align: left;
-  color: var(--accent-color);
-}
-
-.logo-part-2 {
-  color: var(--first-text-color);
-}
-
 .soc-net {
   display: flex;
   justify-content: space-between;
 }
 
-.net-list-item:not(:last-child) {
-  margin-right: 10px;
+.net-list-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .soc-net-icons {

@@ -17,7 +17,7 @@
   }
 }
 
-.main-title {
+.hero__title {
   text-align: center;
   margin-bottom: 30px;
   font-weight: 900;
@@ -26,29 +26,4 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--first-text-color);
-}
-
-.main-btn {
-  padding: 10px 32px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  min-width: 200px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  color: var(--first-text-color);
-  background: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    background: var(--main-btn-color);
-    cursor: pointer;
-  }
 }

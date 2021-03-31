@@ -16,12 +16,12 @@
   margin-left: auto;
 }
 
-.contact-item:not(:last-child) {
+.contact__item:not(:last-child) {
   margin-right: 50px;
   align-items: end;
 }
 
-.contact-link {
+.contact__link {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -41,20 +41,22 @@
   }
 }
 
-.contact-icon {
+.contact__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.navigation-list {
+.menu {
   display: flex;
 }
 
-.navigation-list-link:not(:last-child) {
-  margin-right: 50px;
+.menu__item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
-.navigation-link {
+.menu__link {
   display: block;
   padding-bottom: 32px;
   padding-top: 32px;

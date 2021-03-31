@@ -3,16 +3,17 @@
   padding-bottom: var(--section-pb);
 }
 
-.title-list {
+.advantages-list {
   display: flex;
+  margin-left: -30px;
 }
 
-.title-item-icon {
-  width: 70px;
-  height: 70px;
+.advantages-list__item {
+  margin-left: 30px;
+  max-width: 270px;
 }
 
-.title-icons {
+.advantages-list__cont {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,4 +23,26 @@
   background-color: var(--team-buttons-color);
   border: none;
   border-radius: 4px;
+}
+
+.advantages-list__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages-list__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.advantages-list__info {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
 }

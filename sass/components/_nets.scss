@@ -1,4 +1,4 @@
-.soc-networks {
+.networks {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
@@ -6,7 +6,7 @@
   padding-right: 17px;
 }
 
-.soc-networks-icons {
+.networks__icons {
   width: 20px;
   height: 20px;
   transition-property: fill;
@@ -14,7 +14,7 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.networks-list-link {
+.networks__link {
   display: flex;
   justify-content: center;
   align-items: center;
