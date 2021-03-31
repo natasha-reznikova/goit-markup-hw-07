@@ -8,7 +8,7 @@
   letter-spacing: 0.03em;
 }
 
-.сonst-clients {
+.our-clients {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
   background-color: var(--first-text-color);
@@ -22,7 +22,7 @@
   margin-top: 50px;
 }
 
-.clients-item {
+.clients__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
   margin-left: 30px;
 }
 
-.clients-item-link {
+.clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,12 +49,12 @@
   }
 }
 
-.clients-item-icon {
+.clients__icon {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  .clients-item-link:hover &,
-  .clients-item-link:focus & {
+  .clients__link:hover &,
+  .clients__link:focus & {
     fill: var(--accent-color);
   }
 }
