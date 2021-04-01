@@ -1,16 +1,16 @@
-.portfolio-items {
+.portfolio {
   padding-top: var(--section-pt);
   padding-bottom: var(--section-pb);
 }
 
-.btn-elements {
+.btn-list {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.buttons-item {
+.btn-list__item {
   padding: 6px 22px;
   background: var(--team-buttons-color);
   border-radius: 4px;
@@ -29,7 +29,7 @@
   }
 }
 
-.buttons-text {
+.btn-list__text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;

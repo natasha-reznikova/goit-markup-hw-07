@@ -168,7 +168,7 @@ img {
   color: var(--accent-color);
 }
 
-.logo-header {
+.logo__header {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -187,23 +187,15 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
-
-.logo-part {
-  color: var(--logo-color);
-}
-
-.footer-logo {
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   text-align: left;
   color: var(--accent-color);
 }
 
-.logo-part-2 {
+.logo__part {
+  color: var(--logo-color);
+}
+
+.logo__part2 {
   color: var(--first-text-color);
 }
 
@@ -350,7 +342,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover + .modal-form__icon {
+.modal-form__input:hover + .modal-form__icon {
   fill: var(--accent-color);
 }
 
@@ -719,32 +711,32 @@ img {
   margin-top: 9px;
 }
 
-.address-item {
+.address__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-city {
+.address__city {
   color: var(--first-text-color);
 }
 
-.soc-net {
+.net {
   display: flex;
   justify-content: space-between;
 }
 
-.net-list-item:not(:last-child) {
+.net__list:not(:last-child) {
   margin-right: 10px;
 }
 
-.soc-net-icons {
+.net__icons {
   width: 20px;
   height: 20px;
 }
 
-.net-list-link {
+.net__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -758,7 +750,7 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.net-list-link:hover, .net-list-link:focus {
+.net__link:hover, .net__link:focus {
   background-color: var(--accent-color);
 }
 
@@ -800,7 +792,7 @@ img {
   color: var(--first-text-color);
 }
 
-.form-btn {
+.form-mailling__btn {
   padding-left: 29px;
   padding-right: 28px;
   font-family: var(--main-font);
@@ -820,11 +812,11 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn:hover, .form-btn:focus {
+.form-mailling__btn:hover, .form-mailling__btn:focus {
   background-color: var(--main-btn-color);
 }
 
-.mail-field {
+.form-mailling__mail {
   margin-right: 12px;
   width: 357px;
   height: 50px;
@@ -837,15 +829,15 @@ img {
   color: var(--first-text-color);
 }
 
-.mail-field::placeholder {
+.form-mailling__mail::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.mailling-icon {
+.form-mailling__icon {
   margin-left: 10px;
 }
 
-.btn-text {
+.form-mailling__text {
   display: flex;
 }
 /*# sourceMappingURL=main.css.map */

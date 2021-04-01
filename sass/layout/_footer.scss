@@ -14,34 +14,34 @@
   }
 }
 
-.address-item {
+.address__link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-city {
+.address__city {
   color: var(--first-text-color);
 }
 
-.soc-net {
+.net {
   display: flex;
   justify-content: space-between;
 }
 
-.net-list-item {
+.net__list {
   &:not(:last-child) {
     margin-right: 10px;
   }
 }
 
-.soc-net-icons {
+.net__icons {
   width: 20px;
   height: 20px;
 }
 
-.net-list-link {
+.net__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +98,7 @@
   color: var(--first-text-color);
 }
 
-.form-btn {
+.form-mailling__btn {
   padding-left: 29px;
   padding-right: 28px;
   font-family: var(--main-font);
@@ -123,7 +123,7 @@
   }
 }
 
-.mail-field {
+.form-mailling__mail {
   margin-right: 12px;
   width: 357px;
   height: 50px;
@@ -140,10 +140,10 @@
   }
 }
 
-.mailling-icon {
+.form-mailling__icon {
   margin-left: 10px;
 }
 
-.btn-text {
+.form-mailling__text {
   display: flex;
 }

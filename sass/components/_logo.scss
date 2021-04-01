@@ -1,4 +1,4 @@
-.logo-header {
+.logo__header {
   margin-right: 93px;
   padding-top: 24px;
   padding-bottom: 25px;
@@ -17,22 +17,14 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
-
-.logo-part {
-  color: var(--logo-color);
-}
-
-.footer-logo {
-  font-family: var(--secondary-font);
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   text-align: left;
   color: var(--accent-color);
 }
 
-.logo-part-2 {
+.logo__part {
+  color: var(--logo-color);
+}
+
+.logo__part2 {
   color: var(--first-text-color);
 }
