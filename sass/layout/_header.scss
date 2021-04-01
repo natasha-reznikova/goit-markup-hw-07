@@ -14,65 +14,61 @@
 .contact {
   display: flex;
   margin-left: auto;
-}
 
-.contact__item:not(:last-child) {
-  margin-right: 50px;
-  align-items: end;
-}
-
-.contact__link {
-  display: flex;
-  align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--second-text-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+  &__item:not(:last-child) {
+    margin-right: 50px;
+    align-items: end;
   }
-}
+  &__link {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--second-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-.contact__icon {
-  margin-right: 10px;
-  fill: currentColor;
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+  }
+  &__icon {
+    margin-right: 10px;
+    fill: currentColor;
+  }
 }
 
 .menu {
   display: flex;
-}
 
-.menu__item {
-  &:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 50px;
   }
-}
 
-.menu__link {
-  display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  min-height: 16px;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__link {
+    display: block;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    min-height: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
   }
 }
 
