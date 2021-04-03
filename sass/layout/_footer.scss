@@ -22,10 +22,6 @@
   margin-top: 20px;
   width: 221px;
 
-  &:not(:first-child) {
-    margin-top: 9px;
-  }
-
   &__link {
     font-size: 14px;
     line-height: 1.71;
@@ -35,6 +31,10 @@
 
   &__city {
     color: var(--first-text-color);
+  }
+
+  &__item:not(:first-child) {
+    margin-top: 9px;
   }
 }
 

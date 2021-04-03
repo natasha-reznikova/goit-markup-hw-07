@@ -423,10 +423,6 @@ img {
   width: 221px;
 }
 
-.address:not(:first-child) {
-  margin-top: 9px;
-}
-
 .address__link {
   font-size: 14px;
   line-height: 1.71;
@@ -436,6 +432,10 @@ img {
 
 .address__city {
   color: var(--first-text-color);
+}
+
+.address__item:not(:first-child) {
+  margin-top: 9px;
 }
 
 .add-to-us {
